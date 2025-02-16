@@ -300,5 +300,3 @@ if __name__ == "__main__":
        
         send_email(to_email, from_email, password, subject, body)
         print("Email sent successfully")
-
-        "__pycache__"

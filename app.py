@@ -1,4 +1,3 @@
-# from datetime import datetime as dt
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -272,7 +271,7 @@ if __name__ == "__main__":
     if int_day < 8:
         from_email = 'social.phumelela@gmail.com'
         to_email = 'social.phumelela@gmail.com'
-        password = "mdzg lvry nuzb jgka"
+        password = "email"
         subject = f"{day}'s Daily Update"
 
         blockbuster_data = blockbuster.get_upcoming_movies(full_date, date.get_future_date(38)), blockbuster.now_showing()

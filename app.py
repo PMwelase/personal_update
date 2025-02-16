@@ -1,13 +1,15 @@
-from datetime import datetime as dt
+# from datetime import datetime as dt
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import blockbuster
+import date
 import download_calendar
 import loadshedding
 import music
 import news
 import quotes
+import twitter
 import weather
 
 
@@ -15,31 +17,214 @@ import weather
 #TODO: add calendar events
 #TODO: add music
 #TODO: add news
+#TODO: add twitter trends
 
-# Function to get today's details
-def get_today_details():
-    now = dt.now()
-    return now.weekday(), now.strftime("%A")
 
 
 # Function to construct the email body
-def construct_email_body(blockbuster_data, calendar_data, loadshedding_data, music_data, news_data, quote, weather_data):
+def construct_email_body(day, blockbuster_data, calendar_data, loadshedding_data, music_data, news_data, quote, weather_data):
+    # Extract upcoming and now_showing movies from blockbuster_data
+    upcoming_movies, now_showing = blockbuster_data
+
+    # Generate HTML for calendar events
     events_html = ''.join(
         f"<li>{event['summary']} from <b>{event['start']['dateTime'].split('T')[1][:5]}</b> to <b>{event['end']['dateTime'].split('T')[1][:5]}</b></li>"
         for event in calendar_data if any(attendee['email'] == v['email'] for attendee in event.get('attendees', []))
     ) if calendar_data else "You're not an attendee on any school events today."
 
+    # Generate HTML for loadshedding
     loadshedding_html = (
         f"<li>There'll likely be loadshedding between {loadshedding_data[0]}</li>"
         if loadshedding_data else "It looks like there'll be no loadshedding. But that may change."
     )
 
+    # Generate rain warning
     rain_warning = "<em>Don't forget to bring an umbrella today</em><br><br>" if rain else ""
 
+    # Generate HTML for upcoming movies
+    upcoming_movies_html = """
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style='
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        font-family: Arial, sans-serif;
+    '>
+        <tr>
+    """
+
+   # Centered heading for upcoming movies
+    upcoming_movies_html = '''<h3 style="text-align: center;">Upcoming Movies You May Be Interested In:</h3><br>'''
+
+    # Start the table for the grid of movies
+    upcoming_movies_html += """
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style='
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        font-family: Arial, sans-serif;
+    '>
+        <tr>
+    """
+
+    # Iterate through the movies and create a grid of 4 columns
+    for index, movie in enumerate(upcoming_movies.values()):
+        if index % 4 == 0 and index != 0:
+            # Start a new row after every 4 movies
+            upcoming_movies_html += """
+        </tr>
+        <tr>
+            """
+
+        upcoming_movies_html += f"""
+            <td width="25%" valign="top" style='
+                padding: 10px;
+                text-align: center;
+            '>
+                <div style='
+                    background-color: #ffffff;
+                    border: 1px solid #ddd;
+                    border-radius: 8px;
+                    padding: 15px;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                '>
+                    <img src='{movie['thumbnail']}' alt='{movie['title']}' style='
+                        width: 100%;
+                        border-radius: 8px;
+                    '>
+                    <h3 style='
+                        margin: 10px 0;
+                        font-size: 18px;
+                        color: #333;
+                        text-align: center;
+                    '>{movie['title']}</h3>
+                    <p style='
+                        margin: 5px 0;
+                        font-size: 14px;
+                        color: #555;
+                    '>{movie['overview']}</p>
+                    <p style='
+                        margin: 5px 0;
+                        font-size: 14px;
+                        color: #555;
+                    '><strong>Release Date:</strong> {movie['release_date']}</p>
+                    <p style='
+                        margin: 5px 0;
+                        font-size: 14px;
+                        color: #555;
+                    '><strong>Main Genre:</strong> {movie['main_genre']}</p>
+                    <p style='
+                        margin: 5px 0;
+                        font-size: 14px;
+                        color: #555;
+                    '><strong>Secondary Genre:</strong> {movie['secondary_genre']}</p>
+                </div>
+            </td>
+        """
+
+    # Add empty cells if the last row has fewer than 4 movies
+    remaining_cells = (4 - (len(upcoming_movies) % 4)) % 4
+    for _ in range(remaining_cells):
+        upcoming_movies_html += "<td width='25%'></td>"
+
+    upcoming_movies_html += """
+        </tr>
+    </table>
+    """
+
+    # Centered heading for currently showing movies
+    showing_movies_html = '''<h3 style="text-align: center;">Movies Currently Showing You may be interested in:</h3><br>'''
+
+    # Start the table for the grid of movies
+    showing_movies_html += """
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style='
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        font-family: Arial, sans-serif;
+    '>
+        <tr>
+    """
+
+    # Iterate through the movies and create a grid of 4 columns
+    for index, movie in enumerate(now_showing.values()):
+        if index % 4 == 0 and index != 0:
+            # Start a new row after every 4 movies
+            showing_movies_html += """
+        </tr>
+        <tr>
+            """
+
+        showing_movies_html += f"""
+            <td width="25%" valign="top" style='
+                padding: 10px;
+                text-align: center;
+            '>
+                <div style='
+                    background-color: #ffffff;
+                    border: 1px solid #ddd;
+                    border-radius: 8px;
+                    padding: 15px;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                '>
+                    <img src='{movie['thumbnail']}' alt='{movie['title']}' style='
+                        width: 100%;
+                        border-radius: 8px;
+                    '>
+                    <h3 style='
+                        margin: 10px 0;
+                        font-size: 18px;
+                        color: #333;
+                        text-align: center;
+                    '>{movie['title']}</h3>
+                    <p style='
+                        margin: 5px 0;
+                        font-size: 14px;
+                        color: #555;
+                    '>{movie['overview']}</p>
+                    <p style='
+                        margin: 5px 0;
+                        font-size: 14px;
+                        color: #555;
+                    '><strong>Release Date:</strong> {movie['release_date']}</p>
+                    <p style='
+                        margin: 5px 0;
+                        font-size: 14px;
+                        color: #555;
+                    '><strong>Main Genre:</strong> {movie['main_genre']}</p>
+                    <p style='
+                        margin: 5px 0;
+                        font-size: 14px;
+                        color: #555;
+                    '><strong>Secondary Genre:</strong> {movie['secondary_genre']}</p>
+                </div>
+            </td>
+        """
+
+    # Add empty cells if the last row has fewer than 4 movies
+    remaining_cells = (4 - (len(now_showing) % 4)) % 4
+    for _ in range(remaining_cells):
+        showing_movies_html += "<td width='25%'></td>"
+
+    showing_movies_html += """
+        </tr>
+    </table>
+    """
+
+    if day == "Sunday":
+        entertainment = upcoming_movies_html
+    elif day == "Monday":
+        entertainment = music_data
+    elif day == "Wednsesday":
+        entertainment = showing_movies_html
+    
+
+    # Construct the full email body
     return f"""
-   <html>
+    <html>
     <body>
         <p>Hi Phumelela, <br><br>
+            <b>Here's your daily update:</b><br>
+            
             <b>Here's how your day is looking: </b><br>
             <ul>
                 <li>{morning_weather}</li>
@@ -53,42 +238,15 @@ def construct_email_body(blockbuster_data, calendar_data, loadshedding_data, mus
             <ul>{loadshedding_html}</ul>
             <em>{quote[0]}</em><br>
             <b> - {quote[1]}</b><br><br>
-            Warm Regards,
 
-            <div style="display: flex; align-items: center; margin-top: 0.5rem;">
-                <div>
-                    <img src="https://avatars.githubusercontent.com/u/23073981?s=280&v=4" alt="WeThinkCode_ Logo" style="width: 80px; height: auto;">
-                </div>
-                <div style="margin-left: 20px;">
-                    <p style="margin: 0; font-size: 14px;">
-                        <b>Phumelela Mwelase</b><br>
-                        Student<br>
-                        WeThinkCode_
-                    </p>
-                    <tbody><tr><td height="5"></td></tr><tr><td color="#238dfa" height="1" style="width:239px;border-bottom:1px solid rgb(35,141,250);border-left:none;display:block"></td></tr><tr><td height="5"></td></tr></tbody>
-                    <p style="margin: 0; font-size: 0.8rem;">
-                        <span style="display: flex; align-items: center;">
-                            <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn Icon" style="width: 1rem; height: 1rem; margin-right: 5px;">
-                            <a href="https://www.linkedin.com/in/phumelelamwelase/" style="color: #000;;">linkedin.com/in/phumelelamwelase</a>
-                        </span>
-                        <br>
-                        <span style="display: flex; align-items: center;">
-                            <img src="https://cdn-icons-png.flaticon.com/512/9068/9068642.png" alt="Email Icon" style="width: 1rem; height: 1rem; margin-right: 5px;">
-                            <a href="mailto:pmwelase023@student.wethinkcode.co.za" style="color: #000;">pmwelase023student.wethinkcode.co.za</a>
-                        </span>
-                        <br>
-                        <span style="display: flex; align-items: center;">
-                            <img src="https://cdn-icons-png.flaticon.com/512/6994/6994770.png" alt="Website Icon" style="width: 1rem; height: 1rem; margin-right: 5px;">
-                            <a href="https://wtc-update.onrender.com/" style="color: #000;">wtc-update.onrender.com</a>
-                        </span>
-                    </p>
-                </div>
-            </div>
+            <hr>
+            {entertainment}
+
+            <hr>
             
-            <p>Click <a href="https://wtc-update.onrender.com/unsubscribe" style="color: #000;">here</a> to unsubscribe.</p>
         </p>
     </body>
-</html>
+    </html>
     """
 
 # Function to send email
@@ -105,21 +263,23 @@ def send_email(to_email, from_email, password, subject, body):
         connection.sendmail(from_addr=from_email, to_addrs=to_email, msg=message.as_string())
 
 if __name__ == "__main__":
-    today_index, day = get_today_details()
+    # today_index, day = get_today_details()
+    full_date = date.get_today_date()[0]
+    day = date.get_today_date()[1]
+    int_day = date.get_today_date()[2]
     print("Today is", day)
     
-    if today_index < 8:
+    if int_day < 8:
         from_email = 'social.phumelela@gmail.com'
         to_email = 'social.phumelela@gmail.com'
         password = "mdzg lvry nuzb jgka"
         subject = f"{day}'s Daily Update"
 
-        blockbuster_data = blockbuster.get_blockbuster_data()
-        print("Blockbuster data:", blockbuster_data)
+        blockbuster_data = blockbuster.get_upcoming_movies(full_date, date.get_future_date(38)), blockbuster.now_showing()
         calendar_data = download_calendar.get_events()
-        print("Calendar data:", calendar_data)
+        # print("Calendar data:", calendar_data)
         loadshedding_data = loadshedding.all_affected_hours()
-        print("Loadshedding data:", loadshedding_data)
+        # print("Loadshedding data:", loadshedding_data)
         music_data = music.get_music_data()
         print("Music data:", music_data)
         news_data = news.get_news_data()
@@ -136,7 +296,9 @@ if __name__ == "__main__":
         weather_data = [morning_weather, afternoon_weather, evening_weather]
         print("Weather data:", weather_data)
 
-        body = construct_email_body(blockbuster_data, calendar_data, loadshedding_data, music_data, news_data, quote, weather_data)
+        body = construct_email_body(day, blockbuster_data, calendar_data, loadshedding_data, music_data, news_data, quote, weather_data)
        
         send_email(to_email, from_email, password, subject, body)
         print("Email sent successfully")
+
+        "__pycache__"

@@ -85,5 +85,8 @@ def main():
     except Exception as e:
         print(f"Unexpected error: {str(e)}")
 
+    return playlist_url
+
 if __name__ == "__main__":
     main()
+    

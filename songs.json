@@ -1,0 +1,1002 @@
+[
+    {
+      "artist": "Lady Gaga &amp; Bruno Mars",
+      "title": "Die With A Smile",
+      "last_week": "2",
+      "rank": "1",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/08\/lady-gaga-r3b-diewithasmile-6og-180x180.jpg",
+      "peak_position": "1",
+      "weeks_on_chart": "25"
+    },
+    {
+      "artist": "Morgan Wallen",
+      "title": "I&#039;m The Problem",
+      "last_week": "-",
+      "rank": "2",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2025\/02\/morgan-wallen-fi6-imtheproblem-wfr-180x180.jpg",
+      "peak_position": "2",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Kendrick Lamar &amp; SZA",
+      "title": "Luther",
+      "last_week": "4",
+      "rank": "3",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2010\/10\/kendrick-lamar-1hw-180x180.jpg",
+      "peak_position": "3",
+      "weeks_on_chart": "11"
+    },
+    {
+      "artist": "Billie Eilish",
+      "title": "Birds Of A Feather",
+      "last_week": "7",
+      "rank": "4",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/06\/billie-eilish-lrt-birdsofafeather-7iy-180x180.jpg",
+      "peak_position": "2",
+      "weeks_on_chart": "38"
+    },
+    {
+      "artist": "Shaboozey",
+      "title": "A Bar Song (Tipsy)",
+      "last_week": "5",
+      "rank": "5",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/04\/shaboozey-2wm-abarsongtipsy-bat-180x180.jpg",
+      "peak_position": "1",
+      "weeks_on_chart": "43"
+    },
+    {
+      "artist": "ROSE &amp; Bruno Mars",
+      "title": "APT.",
+      "last_week": "3",
+      "rank": "6",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/10\/rose-000-apt-kne-180x180.jpg",
+      "peak_position": "3",
+      "weeks_on_chart": "16"
+    },
+    {
+      "artist": "The Weeknd &amp; Playboi Carti",
+      "title": "Timeless",
+      "last_week": "18",
+      "rank": "7",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/10\/the-weeknd-jlk-timeless-ait-180x180.jpg",
+      "peak_position": "3",
+      "weeks_on_chart": "19"
+    },
+    {
+      "artist": "Teddy Swims",
+      "title": "Lose Control",
+      "last_week": "6",
+      "rank": "8",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2023\/07\/teddyswims-loq-losecontrol-4kx-180x180.jpg",
+      "peak_position": "1",
+      "weeks_on_chart": "77"
+    },
+    {
+      "artist": "Benson Boone",
+      "title": "Beautiful Things",
+      "last_week": "15",
+      "rank": "9",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/02\/bensonboone-zpu-beautifulthings-vvt-180x180.jpg",
+      "peak_position": "2",
+      "weeks_on_chart": "54"
+    },
+    {
+      "artist": "Kendrick Lamar Featuring Lefty Gunplay",
+      "title": "TV Off",
+      "last_week": "11",
+      "rank": "10",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2010\/10\/kendrick-lamar-1hw-180x180.jpg",
+      "peak_position": "2",
+      "weeks_on_chart": "11"
+    },
+    {
+      "artist": "Morgan Wallen",
+      "title": "Love Somebody",
+      "last_week": "10",
+      "rank": "11",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/11\/morgan-wallen-fi6-lovesomebody-a74-180x180.jpg",
+      "peak_position": "1",
+      "weeks_on_chart": "16"
+    },
+    {
+      "artist": "The Weeknd",
+      "title": "Cry For Me",
+      "last_week": "-",
+      "rank": "12",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/11\/the-weeknd-jlk-180x180.jpg",
+      "peak_position": "12",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Gracie Abrams",
+      "title": "That&#039;s So True",
+      "last_week": "9",
+      "rank": "13",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/11\/gracieabrams-wqa-thatssotrue-rob-180x180.jpg",
+      "peak_position": "6",
+      "weeks_on_chart": "16"
+    },
+    {
+      "artist": "Sabrina Carpenter",
+      "title": "Espresso",
+      "last_week": "13",
+      "rank": "14",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/04\/sabrina-carpenter-3b3-espresso-c1a-180x180.jpg",
+      "peak_position": "3",
+      "weeks_on_chart": "43"
+    },
+    {
+      "artist": "Kendrick Lamar",
+      "title": "Not Like Us",
+      "last_week": "29",
+      "rank": "15",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/05\/kendrick-lamar-1hw-notlikeus-fyp-180x180.jpg",
+      "peak_position": "1",
+      "weeks_on_chart": "39"
+    },
+    {
+      "artist": "Post Malone Featuring Morgan Wallen",
+      "title": "I Had Some Help",
+      "last_week": "12",
+      "rank": "16",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/05\/post-malone-uhe-ihadsomehelp-1sg-180x180.jpg",
+      "peak_position": "1",
+      "weeks_on_chart": "39"
+    },
+    {
+      "artist": "Bad Bunny",
+      "title": "DTMF",
+      "last_week": "8",
+      "rank": "17",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2016\/10\/bad-bunny-6eh-180x180.jpg",
+      "peak_position": "2",
+      "weeks_on_chart": "5"
+    },
+    {
+      "artist": "Chappell Roan",
+      "title": "Pink Pony Club",
+      "last_week": "45",
+      "rank": "18",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/06\/chappellroan-bhw-pinkponyclub-14t-180x180.jpg",
+      "peak_position": "18",
+      "weeks_on_chart": "34"
+    },
+    {
+      "artist": "Lola Young",
+      "title": "Messy",
+      "last_week": "14",
+      "rank": "19",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/11\/lolayoung-000-messy-0dn-180x180.jpg",
+      "peak_position": "14",
+      "weeks_on_chart": "10"
+    },
+    {
+      "artist": "Kendrick Lamar",
+      "title": "Squabble Up",
+      "last_week": "23",
+      "rank": "20",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2010\/10\/kendrick-lamar-1hw-180x180.jpg",
+      "peak_position": "1",
+      "weeks_on_chart": "11"
+    },
+    {
+      "artist": "Sabrina Carpenter",
+      "title": "Taste",
+      "last_week": "19",
+      "rank": "21",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/08\/sabrina-carpenter-3b3-taste-tig-180x180.jpg",
+      "peak_position": "2",
+      "weeks_on_chart": "24"
+    },
+    {
+      "artist": "SZA With Kendrick Lamar",
+      "title": "30 For 30",
+      "last_week": "20",
+      "rank": "22",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2014\/04\/sza-xyh-180x180.jpg",
+      "peak_position": "20",
+      "weeks_on_chart": "7"
+    },
+    {
+      "artist": "Chappell Roan",
+      "title": "Good Luck, Babe!",
+      "last_week": "30",
+      "rank": "23",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/04\/chappellroan-bhw-goodluckbabe-yrt-180x180.jpg",
+      "peak_position": "4",
+      "weeks_on_chart": "43"
+    },
+    {
+      "artist": "Hozier",
+      "title": "Too Sweet",
+      "last_week": "24",
+      "rank": "24",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2013\/10\/hozier-yf1-180x180.jpg",
+      "peak_position": "1",
+      "weeks_on_chart": "45"
+    },
+    {
+      "artist": "Myles Smith",
+      "title": "Stargazing",
+      "last_week": "26",
+      "rank": "25",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/05\/mylessmith-w4f-stargazing-35e-180x180.jpg",
+      "peak_position": "19",
+      "weeks_on_chart": "38"
+    },
+    {
+      "artist": "Bad Bunny",
+      "title": "Baile Inolvidable",
+      "last_week": "16",
+      "rank": "26",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2016\/10\/bad-bunny-6eh-180x180.jpg",
+      "peak_position": "3",
+      "weeks_on_chart": "5"
+    },
+    {
+      "artist": "Doechii",
+      "title": "Denial Is A River",
+      "last_week": "55",
+      "rank": "27",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2022\/03\/doechii-p52-180x180.jpg",
+      "peak_position": "27",
+      "weeks_on_chart": "5"
+    },
+    {
+      "artist": "Tyler, The Creator Featuring GloRilla, Sexyy Red &amp; Lil Wayne",
+      "title": "Sticky",
+      "last_week": "25",
+      "rank": "28",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/05\/tyler-the-creator-loo-180x180.jpg",
+      "peak_position": "10",
+      "weeks_on_chart": "15"
+    },
+    {
+      "artist": "Lady Gaga",
+      "title": "Abracadabra",
+      "last_week": "-",
+      "rank": "29",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2025\/02\/lady-gaga-r3b-abracadabra-0c6-180x180.jpg",
+      "peak_position": "29",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Morgan Wallen",
+      "title": "Smile",
+      "last_week": "22",
+      "rank": "30",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2025\/01\/morgan-wallen-fi6-smile-01r-180x180.jpg",
+      "peak_position": "4",
+      "weeks_on_chart": "6"
+    },
+    {
+      "artist": "Koe Wetzel &amp; Jessie Murph",
+      "title": "High Road",
+      "last_week": "28",
+      "rank": "31",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/06\/koe-wetzel-1ky-highroad-769-180x180.jpg",
+      "peak_position": "22",
+      "weeks_on_chart": "35"
+    },
+    {
+      "artist": "Billie Eilish",
+      "title": "Wildflower",
+      "last_week": "46",
+      "rank": "32",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2017\/02\/billie-eilish-lrt-180x180.jpg",
+      "peak_position": "17",
+      "weeks_on_chart": "34"
+    },
+    {
+      "artist": "Tate McRae",
+      "title": "Sports Car",
+      "last_week": "21",
+      "rank": "33",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2019\/11\/tatemcrae-rxu-180x180.jpg",
+      "peak_position": "21",
+      "weeks_on_chart": "2"
+    },
+    {
+      "artist": "Sexyy Red &amp; Bruno Mars",
+      "title": "Fat Juicy &amp; Wet",
+      "last_week": "17",
+      "rank": "34",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2025\/02\/sexyyred-8hq-fatjuicywet-w8b-180x180.jpg",
+      "peak_position": "17",
+      "weeks_on_chart": "2"
+    },
+    {
+      "artist": "Gigi Perez",
+      "title": "Sailor Song",
+      "last_week": "34",
+      "rank": "35",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/08\/gigiperez-iqu-sailorsong-x36-180x180.jpg",
+      "peak_position": "22",
+      "weeks_on_chart": "25"
+    },
+    {
+      "artist": "Jimin",
+      "title": "Who",
+      "last_week": "31",
+      "rank": "36",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/07\/ji-min-7g4-who-dvy-180x180.jpg",
+      "peak_position": "12",
+      "weeks_on_chart": "28"
+    },
+    {
+      "artist": "Bad Bunny",
+      "title": "Nuevayol",
+      "last_week": "27",
+      "rank": "37",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2016\/10\/bad-bunny-6eh-180x180.jpg",
+      "peak_position": "8",
+      "weeks_on_chart": "5"
+    },
+    {
+      "artist": "Sabrina Carpenter",
+      "title": "Bed Chem",
+      "last_week": "36",
+      "rank": "38",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/09\/sabrina-carpenter-3b3-bedchem-9im-180x180.jpg",
+      "peak_position": "14",
+      "weeks_on_chart": "24"
+    },
+    {
+      "artist": "GloRilla &amp; Sexyy Red",
+      "title": "Whatchu Kno About Me",
+      "last_week": "33",
+      "rank": "39",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2022\/05\/glorilla-bn2-180x180.jpg",
+      "peak_position": "17",
+      "weeks_on_chart": "17"
+    },
+    {
+      "artist": "The Marias",
+      "title": "No One Noticed",
+      "last_week": "37",
+      "rank": "40",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/08\/themarias-mjs-noonenoticed-we8-180x180.jpg",
+      "peak_position": "22",
+      "weeks_on_chart": "19"
+    },
+    {
+      "artist": "Fetty Wap",
+      "title": "Again",
+      "last_week": "-",
+      "rank": "41",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2015\/08\/fetty-wap-1ev-again-4vw-180x180.jpg",
+      "peak_position": "33",
+      "weeks_on_chart": "27"
+    },
+    {
+      "artist": "SZA",
+      "title": "BMF",
+      "last_week": "32",
+      "rank": "42",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2014\/04\/sza-xyh-180x180.jpg",
+      "peak_position": "29",
+      "weeks_on_chart": "7"
+    },
+    {
+      "artist": "The Weeknd &amp; Anitta",
+      "title": "Sao Paulo",
+      "last_week": "-",
+      "rank": "43",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/11\/the-weeknd-jlk-saopaulo-1s2-180x180.jpg",
+      "peak_position": "43",
+      "weeks_on_chart": "2"
+    },
+    {
+      "artist": "Jelly Roll",
+      "title": "Liar",
+      "last_week": "38",
+      "rank": "44",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/08\/jelly-roll-7m0-liar-cer-180x180.jpg",
+      "peak_position": "38",
+      "weeks_on_chart": "19"
+    },
+    {
+      "artist": "The Weeknd &amp; Justice",
+      "title": "Wake Me Up",
+      "last_week": "-",
+      "rank": "45",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/11\/the-weeknd-jlk-180x180.jpg",
+      "peak_position": "45",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "The Weeknd",
+      "title": "Baptized In Fear",
+      "last_week": "-",
+      "rank": "46",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/11\/the-weeknd-jlk-180x180.jpg",
+      "peak_position": "46",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Sabrina Carpenter",
+      "title": "Please Please Please",
+      "last_week": "49",
+      "rank": "47",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/06\/sabrina-carpenter-3b3-pleasepleaseplease-i9t-180x180.jpg",
+      "peak_position": "1",
+      "weeks_on_chart": "33"
+    },
+    {
+      "artist": "The Weeknd",
+      "title": "Open Hearts",
+      "last_week": "-",
+      "rank": "48",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/11\/the-weeknd-jlk-180x180.jpg",
+      "peak_position": "48",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Neton Vega",
+      "title": "Loco",
+      "last_week": "43",
+      "rank": "49",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2025\/01\/netonvega-emt-loco-x5c-180x180.jpg",
+      "peak_position": "43",
+      "weeks_on_chart": "6"
+    },
+    {
+      "artist": "Zach Top",
+      "title": "I Never Lie",
+      "last_week": "44",
+      "rank": "50",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/01\/zachtop-7m8-180x180.jpg",
+      "peak_position": "38",
+      "weeks_on_chart": "20"
+    },
+    {
+      "artist": "GELO",
+      "title": "Tweaker",
+      "last_week": "48",
+      "rank": "51",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2025\/01\/g3liangeloball-000-tweaker-fkf-180x180.jpg",
+      "peak_position": "29",
+      "weeks_on_chart": "5"
+    },
+    {
+      "artist": "Chris Brown",
+      "title": "Residuals",
+      "last_week": "40",
+      "rank": "52",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2005\/07\/chris-brown-94g-180x180.jpg",
+      "peak_position": "40",
+      "weeks_on_chart": "22"
+    },
+    {
+      "artist": "The Weeknd, Travis Scott &amp; Florence + The Machine",
+      "title": "Reflections Laughing",
+      "last_week": "-",
+      "rank": "53",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/11\/the-weeknd-jlk-180x180.jpg",
+      "peak_position": "53",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Lainey Wilson",
+      "title": "4x4xU",
+      "last_week": "52",
+      "rank": "54",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/07\/lainey-wilson-cu2-4x4xu-msh-180x180.jpg",
+      "peak_position": "45",
+      "weeks_on_chart": "13"
+    },
+    {
+      "artist": "Bad Bunny",
+      "title": "Voy A Llevarte Pa PR",
+      "last_week": "35",
+      "rank": "55",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2016\/10\/bad-bunny-6eh-180x180.jpg",
+      "peak_position": "17",
+      "weeks_on_chart": "5"
+    },
+    {
+      "artist": "Sam Barber Featuring Avery Anna",
+      "title": "Indigo",
+      "last_week": "50",
+      "rank": "56",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2023\/04\/sambarber-48a-180x180.jpg",
+      "peak_position": "48",
+      "weeks_on_chart": "9"
+    },
+    {
+      "artist": "Travis Scott",
+      "title": "4X4",
+      "last_week": "1",
+      "rank": "57",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2025\/02\/travis-scott-a4t-4x4-eal-180x180.jpg",
+      "peak_position": "1",
+      "weeks_on_chart": "2"
+    },
+    {
+      "artist": "Cody Johnson &amp; Carrie Underwood",
+      "title": "I&#039;m Gonna Love You",
+      "last_week": "53",
+      "rank": "58",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/10\/cody-johnson-eoy-imgonnaloveyou-5gl-180x180.jpg",
+      "peak_position": "40",
+      "weeks_on_chart": "19"
+    },
+    {
+      "artist": "Bad Bunny",
+      "title": "EOO",
+      "last_week": "39",
+      "rank": "59",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2016\/10\/bad-bunny-6eh-180x180.jpg",
+      "peak_position": "24",
+      "weeks_on_chart": "5"
+    },
+    {
+      "artist": "The Weeknd &amp; Future",
+      "title": "Enjoy The Show",
+      "last_week": "-",
+      "rank": "60",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/11\/the-weeknd-jlk-180x180.jpg",
+      "peak_position": "60",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Teddy Swims",
+      "title": "Bad Dreams",
+      "last_week": "42",
+      "rank": "61",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/09\/teddyswims-loq-baddreams-v0e-180x180.jpg",
+      "peak_position": "42",
+      "weeks_on_chart": "10"
+    },
+    {
+      "artist": "Tyler, The Creator Featuring Lola Young",
+      "title": "Like Him",
+      "last_week": "54",
+      "rank": "62",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/05\/tyler-the-creator-loo-180x180.jpg",
+      "peak_position": "29",
+      "weeks_on_chart": "15"
+    },
+    {
+      "artist": "Shaboozey",
+      "title": "Good News",
+      "last_week": "57",
+      "rank": "63",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/11\/shaboozey-2wm-goodnews-c3j-180x180.jpg",
+      "peak_position": "47",
+      "weeks_on_chart": "11"
+    },
+    {
+      "artist": "Chris Stapleton",
+      "title": "Think I&#039;m In Love With You",
+      "last_week": "60",
+      "rank": "64",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2023\/09\/chris-stapleton-igf-thinkiminlovewithyou-99q-180x180.jpg",
+      "peak_position": "49",
+      "weeks_on_chart": "40"
+    },
+    {
+      "artist": "The Weeknd",
+      "title": "Niagara Falls",
+      "last_week": "-",
+      "rank": "65",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/11\/the-weeknd-jlk-180x180.jpg",
+      "peak_position": "65",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Jordan Davis",
+      "title": "I Ain&#039;t Sayin&#039;",
+      "last_week": "59",
+      "rank": "66",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/08\/jordan-davis-wxd-iaintsayin-1y8-180x180.jpg",
+      "peak_position": "59",
+      "weeks_on_chart": "7"
+    },
+    {
+      "artist": "Bad Bunny, Omar Courtz &amp; Dei V",
+      "title": "Velda",
+      "last_week": "47",
+      "rank": "67",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2016\/10\/bad-bunny-6eh-180x180.jpg",
+      "peak_position": "23",
+      "weeks_on_chart": "5"
+    },
+    {
+      "artist": "The Weeknd &amp; Lana Del Rey",
+      "title": "The Abyss",
+      "last_week": "-",
+      "rank": "68",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/11\/the-weeknd-jlk-180x180.jpg",
+      "peak_position": "68",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "The Weeknd",
+      "title": "Take Me Back To LA",
+      "last_week": "-",
+      "rank": "69",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/11\/the-weeknd-jlk-180x180.jpg",
+      "peak_position": "69",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Bad Bunny",
+      "title": "El Club",
+      "last_week": "51",
+      "rank": "70",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/12\/bad-bunny-6eh-elclub-39b-180x180.jpg",
+      "peak_position": "27",
+      "weeks_on_chart": "7"
+    },
+    {
+      "artist": "The Weeknd",
+      "title": "Given Up On Me",
+      "last_week": "-",
+      "rank": "71",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/11\/the-weeknd-jlk-180x180.jpg",
+      "peak_position": "71",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Megan Moroney",
+      "title": "Am I Okay?",
+      "last_week": "68",
+      "rank": "72",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/07\/meganmoroney-1wq-amiokayX-wr9-180x180.jpg",
+      "peak_position": "59",
+      "weeks_on_chart": "22"
+    },
+    {
+      "artist": "Post Malone Featuring Luke Combs",
+      "title": "Guy For That",
+      "last_week": "67",
+      "rank": "73",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/08\/post-malone-uhe-guyforthat-dky-180x180.jpg",
+      "peak_position": "17",
+      "weeks_on_chart": "25"
+    },
+    {
+      "artist": "The Weeknd",
+      "title": "Opening Night",
+      "last_week": "-",
+      "rank": "74",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/11\/the-weeknd-jlk-180x180.jpg",
+      "peak_position": "74",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Addison Rae",
+      "title": "Diet Pepsi",
+      "last_week": "66",
+      "rank": "75",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/09\/addisonrae-xms-dietpepsi-yc0-180x180.jpg",
+      "peak_position": "54",
+      "weeks_on_chart": "19"
+    },
+    {
+      "artist": "Rauw Alejandro &amp; Bad Bunny",
+      "title": "Que Pasaria...",
+      "last_week": "61",
+      "rank": "76",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2018\/09\/rauwalejandro-why-180x180.jpg",
+      "peak_position": "34",
+      "weeks_on_chart": "12"
+    },
+    {
+      "artist": "Oscar Maydon &amp; Fuerza Regida",
+      "title": "Tu Boda",
+      "last_week": "65",
+      "rank": "77",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/10\/oscarmaydon-uvh-tuboda-ktj-180x180.jpg",
+      "peak_position": "22",
+      "weeks_on_chart": "16"
+    },
+    {
+      "artist": "Teddy Swims &amp; GIVEON",
+      "title": "Are You Even Real",
+      "last_week": "63",
+      "rank": "78",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2021\/02\/teddyswims-loq-180x180.jpg",
+      "peak_position": "59",
+      "weeks_on_chart": "4"
+    },
+    {
+      "artist": "Summer Walker",
+      "title": "Heart Of A Woman",
+      "last_week": "70",
+      "rank": "79",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/11\/summerwalker-e1o-heartofawoman-3ww-180x180.jpg",
+      "peak_position": "57",
+      "weeks_on_chart": "15"
+    },
+    {
+      "artist": "Zach Bryan",
+      "title": "Blue Jean Baby",
+      "last_week": "73",
+      "rank": "80",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2025\/02\/zachbryan-de1-bluejeanbaby-uas-180x180.jpg",
+      "peak_position": "73",
+      "weeks_on_chart": "2"
+    },
+    {
+      "artist": "Kendrick Lamar Featuring AzChike",
+      "title": "Peekaboo",
+      "last_week": "76",
+      "rank": "81",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2010\/10\/kendrick-lamar-1hw-180x180.jpg",
+      "peak_position": "13",
+      "weeks_on_chart": "11"
+    },
+    {
+      "artist": "The Weeknd",
+      "title": "I Can&#039;t Wait To Get There",
+      "last_week": "-",
+      "rank": "82",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2011\/11\/the-weeknd-jlk-180x180.jpg",
+      "peak_position": "82",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "BigXthaPlug",
+      "title": "The Largest",
+      "last_week": "71",
+      "rank": "83",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/10\/bigxthaplug-b0q-thelargest-pf2-180x180.jpg",
+      "peak_position": "71",
+      "weeks_on_chart": "6"
+    },
+    {
+      "artist": "Gabito Ballesteros &amp; Tito Double P",
+      "title": "7 Dias",
+      "last_week": "-",
+      "rank": "84",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2025\/02\/gabitoballesteros-l95-7dias-vch-180x180.jpg",
+      "peak_position": "84",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Kane Brown With Jelly Roll",
+      "title": "Haunted",
+      "last_week": "58",
+      "rank": "85",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2014\/11\/kane-brown-s9u-87x87.jpg",
+      "peak_position": "58",
+      "weeks_on_chart": "2"
+    },
+    {
+      "artist": "Don Toliver",
+      "title": "No Pole",
+      "last_week": "72",
+      "rank": "86",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2019\/12\/dontoliver-37d-180x180.jpg",
+      "peak_position": "66",
+      "weeks_on_chart": "14"
+    },
+    {
+      "artist": "Bad Bunny &amp; Chuwi",
+      "title": "Weltita",
+      "last_week": "56",
+      "rank": "87",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2016\/10\/bad-bunny-6eh-180x180.jpg",
+      "peak_position": "32",
+      "weeks_on_chart": "5"
+    },
+    {
+      "artist": "Ella Langley",
+      "title": "Weren&#039;t For The Wind",
+      "last_week": "85",
+      "rank": "88",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/11\/ellalangley-mpj-werentforthewind-k6l-180x180.jpg",
+      "peak_position": "85",
+      "weeks_on_chart": "2"
+    },
+    {
+      "artist": "Real Boston Richey",
+      "title": "Help Me",
+      "last_week": "75",
+      "rank": "89",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/07\/realbostonrichey-4gx-helpme-cv6-180x180.jpg",
+      "peak_position": "47",
+      "weeks_on_chart": "29"
+    },
+    {
+      "artist": "Imogen Heap",
+      "title": "Headlock",
+      "last_week": "91",
+      "rank": "90",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/11\/imogen-heap-gom-headlock-bau-180x180.jpg",
+      "peak_position": "90",
+      "weeks_on_chart": "4"
+    },
+    {
+      "artist": "Kendrick Lamar Featuring Dody6",
+      "title": "Hey Now",
+      "last_week": "88",
+      "rank": "91",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2010\/10\/kendrick-lamar-1hw-180x180.jpg",
+      "peak_position": "5",
+      "weeks_on_chart": "11"
+    },
+    {
+      "artist": "Doechii",
+      "title": "Nissan Altima",
+      "last_week": "-",
+      "rank": "92",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/10\/doechii-p52-nissanaltima-96f-180x180.jpg",
+      "peak_position": "92",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Bad Bunny",
+      "title": "Kloufrens",
+      "last_week": "64",
+      "rank": "93",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2016\/10\/bad-bunny-6eh-180x180.jpg",
+      "peak_position": "40",
+      "weeks_on_chart": "5"
+    },
+    {
+      "artist": "Bad Bunny &amp; RaiNao",
+      "title": "Perfumito Nuevo",
+      "last_week": "62",
+      "rank": "94",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2016\/10\/bad-bunny-6eh-180x180.jpg",
+      "peak_position": "31",
+      "weeks_on_chart": "5"
+    },
+    {
+      "artist": "CHRYSTAL",
+      "title": "The Days",
+      "last_week": "83",
+      "rank": "95",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/12\/chrystal-000-thedays-bno-180x180.jpg",
+      "peak_position": "83",
+      "weeks_on_chart": "4"
+    },
+    {
+      "artist": "JENNIE &amp; Dominic Fike",
+      "title": "Love Hangover",
+      "last_week": "-",
+      "rank": "96",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2025\/02\/jennie-000-lovehangover-mgi-180x180.jpg",
+      "peak_position": "96",
+      "weeks_on_chart": "1"
+    },
+    {
+      "artist": "Tito Double P",
+      "title": "Rosones",
+      "last_week": "87",
+      "rank": "97",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/12\/titodoublep-tye-rosones-sa8-180x180.jpg",
+      "peak_position": "76",
+      "weeks_on_chart": "7"
+    },
+    {
+      "artist": "Tito Double P",
+      "title": "Nadie",
+      "last_week": "86",
+      "rank": "98",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/12\/titodoublep-tye-nadie-9rh-180x180.jpg",
+      "peak_position": "78",
+      "weeks_on_chart": "5"
+    },
+    {
+      "artist": "David Guetta, Alphaville &amp; Ava Max",
+      "title": "Forever Young",
+      "last_week": "90",
+      "rank": "99",
+      "award": false,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2024\/11\/david-guetta-hws-foreveryoung-4uj-180x180.jpg",
+      "peak_position": "90",
+      "weeks_on_chart": "4"
+    },
+    {
+      "artist": "Riley Green",
+      "title": "Worst Way",
+      "last_week": "-",
+      "rank": "100",
+      "award": true,
+      "image": "https:\/\/charts-static.billboard.com\/img\/2017\/09\/riley-green-gmh-180x180.jpg",
+      "peak_position": "91",
+      "weeks_on_chart": "4"
+    }
+  ]
